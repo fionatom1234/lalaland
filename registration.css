@@ -1,0 +1,12 @@
+h1{
+color:red;
+background-color:black;
+font-size:240%;
+font-family:sans-serif
+}
+body{
+background-color:lavender;
+}
+p{
+border:8px solid black;padding:20px;margin:40px;
+}

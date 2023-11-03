@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel='stylesheet' href='style.css'>
+</head>
+<h1>Registration form</h1>
+<body>
+<div style="border;2px solidblack:padding:10px;width:30%>
+<p>This Form is to register for on-site internship held Oct 11- Oct 16 .</p>
+<br><label>Name:</label>&nbsp <input type="text" name="Name" placeholder="Name" size="20" maxlength="30"><br>
+<br><label>Contact No:</label>&nbsp <input type="tel" name="Phone No." placeholder="Number" size="20" maxlength="10"><br>
+<br><label>Email:</label>&nbsp <input type="email" name="Email" placeholder="email-id" ><br>
+<br><label>DOB:</label>&nbsp <input type="date" id="datereturn"><br><br>
+<label>Your gender:</label>
+<label><input type="radio" name="gender" value="Male">Male</label>
+<label><input type="radio" name="gender" value="Female">Female</label>
+<label><input type="radio" name="gender" value="Transgender">Other</label><br>
+
+<br><label>Are you available for one week?</label>
+<label style='display:block;'><input type="radio" name="Yes" value="Yes">Yes</label>
+<label style='display:block;'><input type="radio" name="No" value="No">No</label>
+<br><label>Qualification:
+<select name='Qualification'>
+<option>10th
+<option>12th
+<option>Graduate
+<option>Post Graduate
+</select><br>
+<br><label>Number of members in Your Group:</label><input type="number" min="1" max="4" maxlength="4"><br>
+
+
+<br><label>Field of interest: </label><br>
+<br><label><input type="checkbox" name="feature" value="Data Science" >Data Science</label>
+<label><input type="checkbox" name="feature" value="Machine Learning">Machine Learning</label>
+<label><input type="checkbox" name="feature" value="Web Development">Web Development</label>
+<label><input type="checkbox" name="feature" value="Artificial Integlligence">Artificial Integlligence</label><br>
+
+<br><label>Rate our website:</label><input type="range" id='points' min="0" max="5" value="4.3"><br>
+
+<br><label>Pick your favourite color:</label><input type='color' id='colorvalue'><br>
+
+<br><label>Address:</label>&nbsp&nbsp <textarea rows='4' cols='50' id='Address'></textarea><br>
+
+<br><label>Check to recieve the copy of your answer</label><input type="checkbox" id="box" checked><br>
+</label><br>
+<br><br><input type="Submit">&nbsp&nbsp
+<input type="reset" value="Reset">
+</div>
+</body>
+</html>
